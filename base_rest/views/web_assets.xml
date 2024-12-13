@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_swagger" name="base_rest assets swagger">
+        <t t-call-assets="base_rest.assets_swagger"/>
+    </template>
+</odoo>

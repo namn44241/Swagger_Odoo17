@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="openapi" name="OpenAPI">
+        <html>
+            <head>
+                <meta charset="UTF-8"/>
+                <meta name="generator" content="Odoo OpenAPI"/>
+                <meta name="description" content="Odoo OpenAPI UI"/>
+                <title>Swagger UI</title>
+                
+                <!-- Load jQuery first -->
+                <script type="text/javascript" src="/web/static/lib/jquery/jquery.js"/>
+                
+                <!-- Initialize odoo object -->
+                <script type="text/javascript">
+                    window.odoo = {
+                        csrf_token: '',
+                        debug: false,
+                        session_info: {
+                            is_superuser: <t t-esc="json.dumps(request.env.user._is_superuser())"/>,
+                            is_frontend: true
+                        }
+                    };
+                </script>
+                
+                <!-- Swagger UI assets -->
+                <link rel="stylesheet" href="/base_rest/static/lib/swagger-ui-3.51.1/swagger-ui.css"/>
+                <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:300,600|Titillium+Web:400,600,700" rel="stylesheet"/>
+                <script type="text/javascript" src="/base_rest/static/lib/swagger-ui-3.51.1/swagger-ui-bundle.js"/>
+                <script type="text/javascript" src="/base_rest/static/lib/swagger-ui-3.51.1/swagger-ui-standalone-preset.js"/>
+                
+                <!-- Custom assets -->
+                <script type="text/javascript" src="/base_rest/static/src/js/swagger_ui.js"/>
+                
+                <style>
+                    body {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    .swagger-ui .topbar {
+                        background-color: #875A7B;
+                    }
+                    .swg-odoo-web-btn {
+                        color: white;
+                        font-size: 1.5em;
+                        margin: 10px;
+                    }
+                </style>
+            </head>
+            <body>
+                <div id="swagger-ui" t-att-data-settings='swagger_settings'/>
+            </body>
+        </html>
+    </template>
+</odoo>
