@@ -5,34 +5,17 @@
     📄 rest_method_param_plugin.py
     📄 rest_method_security_plugin.py
     📄 __init__.py
-    📁 __pycache__
-      📄 base_rest_service_apispec.cpython-310.pyc
-      📄 restapi_method_route_plugin.cpython-310.pyc
-      📄 rest_method_param_plugin.cpython-310.pyc
-      📄 rest_method_security_plugin.cpython-310.pyc
-      📄 __init__.cpython-310.pyc
   📁 components
     📄 cerberus_validator.py
     📄 service.py
     📄 service_context_provider.py
     📄 user_component_context_provider.py
     📄 __init__.py
-    📁 __pycache__
-      📄 cerberus_validator.cpython-310.pyc
-      📄 service.cpython-310.pyc
-      📄 service_context_provider.cpython-310.pyc
-      📄 user_component_context_provider.cpython-310.pyc
-      📄 __init__.cpython-310.pyc
   📁 controllers
     📄 api_docs.py
     📄 main.py
     📄 __init__.py
-    📁 __pycache__
-      📄 api_docs.cpython-310.pyc
-      📄 demo_controller.cpython-310.pyc
-      📄 main.cpython-310.pyc
-      📄 swagger_controller.cpython-310.pyc
-      📄 __init__.cpython-310.pyc
+  📄 core.py
   📄 core.py
   📄 http.py
   📁 i18n
@@ -43,10 +26,6 @@
     📄 ir_rule.py
     📄 rest_service_registration.py
     📄 __init__.py
-    📁 __pycache__
-      📄 ir_rule.cpython-310.pyc
-      📄 rest_service_registration.cpython-310.pyc
-      📄 __init__.cpython-310.pyc
   📁 readme
     📄 CONFIGURE.rst
     📄 CONTRIBUTORS.rst
@@ -101,20 +80,11 @@
     📄 web_assets.xml
   📄 __init__.py
   📄 __manifest__.py
-  📁 __pycache__
-    📄 core.cpython-310.pyc
-    📄 http.cpython-310.pyc
-    📄 restapi.cpython-310.pyc
-    📄 tools.cpython-310.pyc
-    📄 __init__.cpython-310.pyc
 📁 component
   📄 builder.py
   📁 components
     📄 base.py
     📄 __init__.py
-    📁 __pycache__
-      📄 base.cpython-310.pyc
-      📄 __init__.cpython-310.pyc
   📄 core.py
   📄 exception.py
   📁 i18n
@@ -139,9 +109,6 @@
   📁 models
     📄 collection.py
     📄 __init__.py
-    📁 __pycache__
-      📄 collection.cpython-310.pyc
-      📄 __init__.cpython-310.pyc
   📁 readme
     📄 CONTRIBUTORS.rst
     📄 DESCRIPTION.rst
@@ -163,11 +130,6 @@
   📄 utils.py
   📄 __init__.py
   📄 __manifest__.py
-  📁 __pycache__
-    📄 builder.cpython-310.pyc
-    📄 core.cpython-310.pyc
-    📄 exception.cpython-310.pyc
-    📄 __init__.cpython-310.pyc
 📄 image.png
 📄 README.md
 📄 require1.txt
