@@ -148,6 +148,8 @@ _Vietnamese below_
 
 ![alt text](image.png)
 
+---
+
 _Vietnamese_
 
 # Swagger in Odoo17
