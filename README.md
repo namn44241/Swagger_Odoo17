@@ -1,4 +1,6 @@
 # swagger_odoo17
-- Swagger - OpenAPI - API REST chỉ hỗ trợ odoo16 là tối đa, vậy namn44241 xin gửi tới các bạn bản odoo17 của Swagger
-- Là bản mod, không phải chính chủ, có thể có tính năng không hoạt động, mong bạn cùng phát triển!
+- Swagger - OpenAPI - REST API only officially supports up to Odoo 16, so namn44241 is sharing with you a Swagger version for Odoo 17.
+- This is a modified version, not an official release. Some features may not work properly, so your contribution to development is welcome!
+- Buy me a coffee if it helps you... Every little support keeps the project going!
+![image](https://github.com/user-attachments/assets/4f7a788d-bdb7-42a0-bb3c-716f3a8f39d3)
 ![alt text](image.png)
